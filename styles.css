@@ -1,0 +1,246 @@
+/* Header layout */
+.site-header {
+  background-color: #333;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Logo styling */
+.logo {
+  height: 50px;
+}
+
+/* Navigation menu */
+.nav-menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-menu li {
+  display: inline-block; /* inline-block to aline side-by-side */
+  margin-left: 20px;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding: 8px 12px;
+  transition: background-color 0.3s ease;
+}
+
+.nav-menu a:hover {
+  background-color: #555;
+  border-radius: 4px;
+}
+
+/* CSS Comments: Layout and Typography */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fff8f0;
+  margin: 0;
+  padding: 0;
+}
+
+.title-content {
+  display: block;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+#welcome {
+  display: flex;
+  align-items: top;
+  gap: 30px;
+  max-width: auto;
+  margin-bottom: 40px;
+}
+
+.rat-chef {
+  width: 650px;
+  height: auto;
+  border-radius: 12px;
+}
+
+/* Grid */
+.grid-showcase {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin: 20px;
+}
+
+.grid-img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+/* Box Model */
+.grid-item {
+  box-sizing: border-box;
+  background-color: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.grid-item h3 {
+  margin: 15px 0;
+  font-size: 1.3em;
+  color: #333;
+}
+
+/* Type Selector */
+nav ul {
+  list-style: none;
+  background-color: #333;
+  padding: 10px;
+  overflow: hidden;
+}
+
+/* Class Selector */
+.intro {
+  margin: 20px;
+  padding: 15px;
+  border: 2px solid #ccc;
+  background-color: #f9f9f9;
+}
+
+/* ID Selector */
+#name {
+  margin-bottom: 10px;
+}
+
+/*-----------RECIPES-----------*/
+
+/* Pseudo-classes for links */
+a:link {
+  color: white;
+}
+a:visited {
+  color: lightgray;
+}
+a:hover {
+  color: yellow;
+}
+a:active {
+  color: red;
+}
+
+/* Floats and Clear */
+.flex-item {
+  float: left;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  width: 600px;
+  text-align: center;
+  padding: 20px;
+}
+
+
+/* Flexbox */
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 40px;
+}
+
+.flex-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.flex-item h2 {
+  margin-top: 15px;
+  font-size: 1.5em;
+  color: #c0392b;
+}
+
+.flex-item p {
+  font-size: 1em;
+  color: #555;
+}
+
+
+/* Inline-block */
+.inline-block {
+  display: inline-block;
+  width: 200px;
+}
+
+/* Overflow */
+textarea {
+  width: 300px;
+  height: 100px;
+  overflow: scroll;
+}
+
+/*-----------Contact page-----------*/
+
+.contact-form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  max-width: 500px;
+  margin: 40px auto;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #333;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1em;
+}
+
+.contact-form textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.contact-form button {
+  background-color: #c0392b;
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 6px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #a93226;
+}
+
+
+footer {
+  display: flex;
+  background-color: #333;
+  color: #fff;
+  justify-content: center;
+  padding: 20px;
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 1em;
+  margin-top: 40px;
+}

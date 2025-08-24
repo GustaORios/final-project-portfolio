@@ -1,0 +1,65 @@
+
+1. Topic / Project Idea: Have a clear project plan/idea that you are passionate about. OK
+
+Idea: A grand chief is moving from France, he already worked in the best restaurant in Paris… but he got fired because Paris rejected his food and now he wants to show his recipes here in Canada and prove a point to the world. He came to me asking for a website to demonstrate your skill and get a part-time here in Vancouver. So here I am, presenting the portfolio of this wonderful chief named by ratatouille.
+
+
+2. GitHub: Your project should be correctly setup on GitHub. OK
+
+https://github.com/GustaORios/final-project-portfolio#
+
+3. Project File Structure: Your project should demonstrate a proper file and directory structure, with proper naming conventions, and an index.html at the root.  OK
+
+4. README file: Have a README file, with a proper description or explanation of what the project is about, and who worked on it. OK
+
+5. HTML5 Boilerplate: Showcase standard HTML5 boilerplate code. OK
+
+6. Landing Page Navigation: Showcase a landing page that you can navigate through as well as from (to other pages). OK
+
+7. Multi-Page Navigation: Showcase how you handle navigation between different web pages. OK
+
+8. HTML Structure & Formatting: Showcase how your HTML elements are nested, use of indentation and whitespaces, proper tag closure, and general proper HTML syntax. OK
+
+9. HTML Comments: Showcase how and why you use comment lines in your HTML. OK
+
+10. Inline CSS: Showcase an example of inline styling. 
+11. Internal CSS: Showcase an example of internal styling with the <style> element.
+
+12. External CSS: Showcase how to style most of your HTML with external CSS via <link> elements and CSS files. OK
+
+13. Block Elements: Showcase an example of an element in your website that has block display. 
+
+14. Inline Elements: Showcase an example of an element in your website that has inline display. OK 
+
+15. Inline-Block Elements:  Showcase an example of an element in your website that has inline-block display. OK
+
+16. CSS Type Selectors: Showcase an example of where you used a type selector in your CSS. OK
+
+17. CSS Class Selectors: Showcase an example of where you used a class selector in your CSS. OK
+
+18. CSS Id Selectors: Showcase an example of where you used an id selector in your CSS.
+
+19. CSS Box Model: Showcase how you use the Box Model for styling elements, by showcasing how you utilize the box-sizing property, as well as margin, border, padding, and width, height or content properties. OK
+
+20. Basic CSS Properties: Showcase examples of how you used background, color, font and text properties. OK
+
+21. Pseudo-Classes & Links: Showcase examples of pseudo-classes together with how you style the different states of links using :link, :hover, :active, and :visited pseudo-classes. OK
+
+22. Floats: Showcase an example of a floated element. OK
+
+23. Clear Property: Showcase an example of the clear property. OK
+
+24. Flexbox Container: Showcase an example of an element with a display set to flex, and common properties for flex elements. OK
+
+25. Flex Items: Showcase examples of elements that are inside a flex container, and common properties used for them. OK
+
+26. Grid: Showcase an example of an element with display set to grid, and common properties used for grid elements. OK
+
+27. Overflow Property: Showcase an example of how you used the overflow property. OK
+
+28. CSS Syntax & Formatting: Demonstrate adequate CSS syntax and formatting, including indentation and whitespace usage, as well as how your declarations are ordered and organized to prevent specificity conflicts. OK
+
+29. CSS Comments: Showcase how you used CSS comments to document and organize your CSS. OK
+
+30. Biggest Challenge: Showcase your biggest challenge or struggle with the project so far, and if you overcame it how you did it
+First of all, my biggest challenge was thinking how organize my content on the page then create a minimal aceitable ux because Im the worst person to work with stylish but my friends help me to be OK with my UI and UX
