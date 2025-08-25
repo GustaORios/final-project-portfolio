@@ -7,6 +7,9 @@
     <title>Chef Ratatouille Portfolio</title>
     <link rel="stylesheet" href="./styles.css">
     <style>
+        h1 {
+            color: #006400;
+        }
         h2 {
             color: darkred;
             text-align: center;
@@ -21,7 +24,7 @@
 
         <nav class="nav-menu">
             <ul>
-                <li><a href="index.html">Home</a></li>
+                <li><a href="#" id="current_page">Home</a></li>
                 <li><a href="./pages/recipes.html">Recipes</a></li>
                 <li><a href="./pages/contact.html">Contact</a></li>
             </ul>
@@ -29,14 +32,13 @@
     </header>
 
     <!-- Introduction - Main content of home page-->
-    <section class="intro" aria-label="main-content">
+    <main class="intro" aria-label="main-content">
         <div class="title-content">
-            <h1 style="color: #006400;">Welcome to Chef Ratatouille's Portfolio</h1> <!-- Inline CSS -->
+            <h1>Welcome to Chef Ratatouille's Portfolio</h1> <!-- Inline CSS -->
             <p>A grand chef from Paris, now cooking in Vancouver 🇨🇦</p>
             <hr>
         </div>
-        <div id="welcome">
-
+        <section id="skills">
             <img src="./assets/img/rat-chef.webp" alt="Chef Ratatouille" class="rat-chef">
             <ul style="list-style: none; padding: 0; font-family: 'Segoe UI', sans-serif; margin-top: 35px;">
                 <li style="margin-bottom: 15px;">
@@ -68,7 +70,7 @@
                     <strong>Passion for Food:</strong> Cooks with heart, turning meals into memorable experiences.
                 </li>
             </ul>
-        </div>
+        </section>
         <hr>
         <h2>The Journey</h2>
         <p>
@@ -86,20 +88,20 @@
 
 
         <div class="grid-showcase">
-        <div class="grid-item">
-            <img src="./assets/img/freenchroots.webp" alt="French Roots" class="grid-img">
-            <h3>French Roots</h3>
+            <div class="grid-item">
+                <img src="./assets/img/freenchroots.webp" alt="French Roots" class="grid-img">
+                <h3>French Roots</h3>
+            </div>
+            <div class="grid-item">
+                <img src="./assets/img/canadianDream.jpg" alt="Canadian Dreams" class="grid-img">
+                <h3>Canadian Dreams</h3>
+            </div>
+            <div class="grid-item">
+                <img src="./assets/img/passionForFlavor.jpg" alt="Passion for Flavor" class="grid-img">
+                <h3>Passion for Flavor</h3>
+            </div>
         </div>
-        <div class="grid-item">
-            <img src="./assets/img/canadianDream.jpg" alt="Canadian Dreams" class="grid-img">
-            <h3>Canadian Dreams</h3>
-        </div>
-        <div class="grid-item">
-            <img src="./assets/img/passionForFlavor.jpg" alt="Passion for Flavor" class="grid-img">
-            <h3>Passion for Flavor</h3>
-        </div>
-    </div>
-    </section>
+    </main>
 
     <!-- Footer used in all pages -- Changes need to be recplicated in the another pages too-->
     <footer aria-label="footer">
