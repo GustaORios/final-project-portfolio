@@ -185,6 +185,15 @@ textarea {
 }
 
 /*-----------Contact page-----------*/
+form > img {
+  width: 70px;
+  float: left;
+}
+
+.form {
+  clear: both;
+}
+
 
 .contact-form {
   background-color: #fff;
@@ -194,6 +203,7 @@ textarea {
   max-width: 500px;
   margin: 40px auto;
   font-family: 'Segoe UI', sans-serif;
+  overflow: hidden;
 }
 
 .contact-form label {
